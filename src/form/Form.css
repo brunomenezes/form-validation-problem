@@ -74,6 +74,10 @@ label + input[type=checkbox] {
     margin-left: 1em;
 }
 
+.animal-checkbox-wrapper + .animal-checkbox-wrapper {
+    margin-left: 1em;
+}
+
 select {
     width: 17em;
 }
@@ -92,11 +96,16 @@ fieldset + fieldset {
     display: inline-block;
 }
 
-.error > input,
-.error > label {
+.error input,
+.error label {
     color: red;
 }
 
-.error > input {
+.error input {
     border-color: red;
+}
+
+.errorMessage {
+    color: #9e9b9e;    
+    size: 8px;
 }
