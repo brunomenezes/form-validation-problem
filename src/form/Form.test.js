@@ -13,5 +13,4 @@ it('should render a form element', () => {
     ReactDOM.render(<Form />, div);
     expect(div.children.length).toBe(1);
     expect(div.querySelector('form')).toBeTruthy();
-    
 });
